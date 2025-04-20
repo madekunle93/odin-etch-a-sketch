@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;                /* allow items to wrap onto new lines */
+    width: 640px;                   /* total width of sketchpad */
+    height: 640px;                  /* same as width for a square area */
+    margin: 20px auto;              /* center it in the page */
+    border: 2px solid #333;
+}
+
+.grid-square {
+    box-sizing: border-box;         /* include border in sizing */
+    width: 40px;                    /* 640px / 16 = 40px per square */
+    height: 40px;                   /* make it a perfect square */
+    border: 1px solid #ddd;       /* light border to see the grid */
+}
