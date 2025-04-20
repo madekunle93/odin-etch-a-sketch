@@ -18,3 +18,7 @@ html, body {
     height: 40px;                   /* make it a perfect square */
     border: 1px solid #ddd;       /* light border to see the grid */
 }
+
+.grid-square.hovered {
+    background-color: blue;
+}
